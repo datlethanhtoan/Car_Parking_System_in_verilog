@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Feb 28 00:30:59 2025
-# Process ID: 35236
-# Current directory: D:/Car_Parking_System
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19320 D:\Car_Parking_System\Car_Parking_System.xpr
-# Log file: D:/Car_Parking_System/vivado.log
-# Journal file: D:/Car_Parking_System\vivado.jou
+# Start of session at: Fri Feb 28 02:04:51 2025
+# Process ID: 24400
+# Current directory: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent37748 C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.xpr
+# Log file: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/vivado.log
+# Journal file: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System\vivado.jou
 # Running On        :DESKTOP-HM2P47S
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26100
@@ -19,15 +19,10 @@
 # Host memory       :29860 MB
 # Swap memory       :8713 MB
 # Total Virtual     :38574 MB
-# Available Virtual :7279 MB
+# Available Virtual :7155 MB
 #-----------------------------------------------------------
 start_gui
-open_project D:/Car_Parking_System/Car_Parking_System.xpr
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Car_Parking_System/Car_Parking_System.gen/sources_1'.
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
+open_project C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.xpr
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
@@ -89,44 +84,39 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1584.816 ; gain = 480.777
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 1573.887 ; gain = 434.695
 update_compile_order -fileset sources_1
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
 WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_system
 INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -135,333 +125,17 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
+Compiling module xil_defaultlib.tb_system
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                    5 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   25 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   65 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   70 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   75 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                   85 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   95 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  105 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  115 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  125 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  135 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  145 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  155 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  165 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  170 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  175 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  185 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  195 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  205 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  215 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  225 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  235 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  245 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  255 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  265 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  275 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  285 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  295 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  305 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  315 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  325 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  335 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  345 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  355 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  365 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  375 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  385 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  395 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  405 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  415 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  425 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  435 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  445 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  455 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  465 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  475 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  485 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  495 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  505 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  515 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1652.066 ; gain = 22.316
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                    5 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   25 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   65 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   70 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   75 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                   85 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   95 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  105 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  115 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  125 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  135 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  145 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  155 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  165 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  170 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  175 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  185 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  195 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  205 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  215 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  225 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  235 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  245 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  255 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  265 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  275 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  285 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  295 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  305 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  315 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  325 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  335 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  345 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  355 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  365 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  375 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  385 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  395 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  405 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  415 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  425 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  435 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  445 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  455 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  465 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  475 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  485 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  495 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  505 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  515 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
+Built simulation snapshot tb_system_behav
 INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Time resolution is 1 ps
-source system_tb.tcl
+source tb_system.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -472,171 +146,80 @@ source system_tb.tcl
 #   }
 # }
 # run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                    5 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   25 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   55 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   65 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   75 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                   85 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   95 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  105 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  115 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  125 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  135 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  145 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  155 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  165 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  170 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  175 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  185 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  195 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  205 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  215 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  225 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  235 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  245 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  255 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  265 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  275 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  285 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  295 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  305 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  315 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  325 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  335 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  345 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  355 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  365 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  375 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  385 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  395 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  405 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  415 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  425 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  435 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  445 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  455 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  465 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  475 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  485 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  495 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  505 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  515 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
+Time = 0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = x | RED_LED = x
+Time = 10000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 120000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 130000 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 210000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 230000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 250000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 270000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 290000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 310000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 330000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 350000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 370000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 390000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 410000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 430000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 450000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 470000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 490000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 510000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 530000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 550000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 570000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 590000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 610000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 630000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 650000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 670000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 690000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 710000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 730000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 750000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 770000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 790000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 810000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 830000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 850000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 870000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 890000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 910000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 930000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 950000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 970000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 990000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1651.688 ; gain = 19.445
 close_sim
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
 INFO: [Simtcl 6-16] Simulation closed
-ERROR: [Common 17-180] Spawn failed: No error
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
 WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:54]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:55]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:63]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:69]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:72]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:75]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:82]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:85]
-ERROR: [VRFC 10-8530] module 'system_tb' is ignored due to previous errors [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:25]
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-99] Step results log file:'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim/xvlog.log'
-ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim/xvlog.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:54]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:55]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:63]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:69]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:72]
-ERROR: [VRFC 10-2989] 'sensor_entrance' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:75]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:82]
-ERROR: [VRFC 10-2989] 'sensor_exit' is not declared [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:85]
-ERROR: [VRFC 10-8530] module 'system_tb' is ignored due to previous errors [D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v:25]
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-99] Step results log file:'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim/xvlog.log'
-ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim/xvlog.log' file for more information.
-ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
-ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_system
 INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -645,17 +228,17 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
+Compiling module xil_defaultlib.tb_system
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
+Built simulation snapshot tb_system_behav
 INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Time resolution is 1 ps
-source system_tb.tcl
+source tb_system.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -666,488 +249,70 @@ source system_tb.tcl
 #   }
 # }
 # run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                    5 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   25 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   65 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   70 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   75 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                   85 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   95 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  105 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  115 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  125 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  135 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  145 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  155 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  165 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  170 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  175 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  185 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  195 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  205 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  215 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  225 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  235 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  245 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  255 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  265 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  275 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  285 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  295 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  305 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  315 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  325 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  335 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  345 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  355 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  365 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  375 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  385 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  395 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  405 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  415 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  425 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  435 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  445 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  455 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  465 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  475 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  485 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  495 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  505 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  515 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
+Time = 0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = x | RED_LED = x
+Time = 10000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 120000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 130000 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 210000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 220000 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 230000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 250000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 270000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 290000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 310000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 330000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 350000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 370000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 390000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 410000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 420000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 430000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 520000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 570000 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 620000 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 1
+Time = 650000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 1 | GREEN_LED = 1 | RED_LED = 0
+Time = 670000 | State = 000 | PWD_1 = 11 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 770000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 980000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1760.691 ; gain = 0.000
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
 WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
 INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
 Vivado Simulator v2024.1
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                   10 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   30 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  110 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  130 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  150 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  170 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  190 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  210 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  230 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  250 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  290 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  310 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  330 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  350 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  370 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  390 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  410 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 0
-Time =                  430 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  450 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  470 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  490 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  510 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                   10 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   30 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                   90 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  110 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  130 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  150 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  170 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  190 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  210 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  230 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  250 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  290 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  310 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  330 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  350 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  370 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  390 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  410 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 0
-Time =                  430 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  450 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  470 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  490 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  510 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                   10 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   30 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  110 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  130 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  150 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  170 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  190 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  210 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  230 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  250 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  290 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  310 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  330 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  350 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  370 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  390 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  410 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 0
-Time =                  430 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  450 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  470 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  490 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  510 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 88
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
-ERROR: [Common 17-180] Spawn failed: No error
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module system_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.system
-Compiling module xil_defaultlib.system_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot system_tb_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source system_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                   10 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   30 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  110 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  130 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  150 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  170 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  190 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  210 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  230 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  250 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  290 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  310 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  330 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  350 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  370 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  390 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  410 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 0
-Time =                  430 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  450 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  470 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  490 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  510 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 77
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'system_tb'
-WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'system_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj system_tb_vlog.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
-"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot system_tb_behav xil_defaultlib.system_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "system_tb_behav -key {Behavioral:sim_1:Functional:system_tb} -tclbatch {system_tb.tcl} -log {simulate.log}"
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
 Time resolution is 1 ps
-source system_tb.tcl
+source tb_system.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -1158,36 +323,223 @@ source system_tb.tcl
 #   }
 # }
 # run 1000ns
-Time =                    0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = x | RED_LED = x
-Time =                   10 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   20 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                   30 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                   70 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 1
-Time =                  110 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  120 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  130 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  150 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  170 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  190 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  210 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 0 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  220 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  230 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  250 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  270 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  290 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  310 | State = 011 | PWD_1 = 11 | PWD_2 = 00 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  320 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  330 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  350 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  370 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  390 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 1 | RED_LED = 0
-Time =                  410 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 0 | GREEN_LED = 0 | RED_LED = 0
-Time =                  420 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 0
-Time =                  430 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  450 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  470 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-Time =                  490 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 1 | RED_LED = 0
-Time =                  510 | State = 100 | PWD_1 = 01 | PWD_2 = 10 | Entrance = 1 | Exit = 1 | GREEN_LED = 0 | RED_LED = 1
-$finish called at time : 520 ns : File "D:/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 77
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'system_tb_behav' loaded.
+Time = 0 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = x | RED_LED = x
+Time = 10000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 120000 | State = 000 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 130000 | State = 001 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 210000 | State = 010 | PWD_1 = 00 | PWD_2 = 00 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 220000 | State = 010 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 230000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 250000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 270000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 290000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 310000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 330000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 350000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 370000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 390000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 1 | RED_LED = 0
+Time = 410000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 420000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 430000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 520000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+Time = 570000 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 1
+Time = 620000 | State = 001 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 1
+Time = 650000 | State = 011 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 1 | Back_Sensor = 1 | GREEN_LED = 1 | RED_LED = 0
+Time = 670000 | State = 000 | PWD_1 = 11 | PWD_2 = 00 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 770000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 1 | GREEN_LED = 0 | RED_LED = 0
+Time = 980000 | State = 000 | PWD_1 = 01 | PWD_2 = 10 | Front_Sensor = 0 | Back_Sensor = 0 | GREEN_LED = 0 | RED_LED = 0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1760.691 ; gain = 0.000
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'system'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim/simulate.log"
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_system
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.system
+Compiling module xil_defaultlib.tb_system
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_system
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.system
+Compiling module xil_defaultlib.tb_system
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 920 ns : File "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 79
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_system'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_system' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_system_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_system
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_system_behav xil_defaultlib.tb_system xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.system
+Compiling module xil_defaultlib.tb_system
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_system_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_system_behav -key {Behavioral:sim_1:Functional:tb_system} -tclbatch {tb_system.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_system.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 620 ns : File "C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.srcs/sim_1/new/tb_system.v" Line 79
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_system_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.srcs\sim_1\new\tb_system.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.srcs\sources_1\new\system.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 28 02:20:57 2025...

@@ -19,67 +19,60 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 `timescale 1ns / 1ps
 
-module system_tb; 
+module tb_system;
 
-    // Tín hiệu đầu vào
-    reg clk, rst;
-    reg Front_Sensor, Back_Sensor;
-    reg [1:0] PWD_1, PWD_2;
+    // Inputs
+    reg clk;
+    reg rst;
+    reg Front_Sensor;
+    reg Back_Sensor;
+    reg [1:0] PWD_1;
+    reg [1:0] PWD_2;
 
-    // Tín hiệu đầu ra
-    wire GREEN_LED, RED_LED;
+    // Outputs
+    wire GREEN_LED;
+    wire RED_LED;
 
-    // Gọi module system
+    // Instantiate the Unit Under Test (UUT)
     system uut (
-        .clk(clk),
-        .rst(rst),
-        .Front_Sensor(Front_Sensor),
-        .Back_Sensor(Back_Sensor),
-        .PWD_1(PWD_1),
-        .PWD_2(PWD_2),
-        .GREEN_LED(GREEN_LED),
+        .clk(clk), 
+        .rst(rst), 
+        .Front_Sensor(Front_Sensor), 
+        .Back_Sensor(Back_Sensor), 
+        .PWD_1(PWD_1), 
+        .PWD_2(PWD_2), 
+        .GREEN_LED(GREEN_LED), 
         .RED_LED(RED_LED)
     );
 
-    // Tạo clock 10ns (tần số 100MHz)
-    always #10 clk = ~clk;
+    initial begin
+        clk = 0;
+        forever #10 clk = ~clk;  
+    end
 
     initial begin
-        // Khởi tạo tín hiệu
-        clk = 0;
         rst = 0;
         Front_Sensor = 0;
         Back_Sensor = 0;
         PWD_1 = 2'b00;
         PWD_2 = 2'b00;
 
-        #10 rst = 1;
-        #10 Front_Sensor = 1;
+        #100;
+        rst = 1;
+        #20;
+        Front_Sensor = 1;
+        #200;
+        Front_Sensor = 0;
+        PWD_1 = 2'b01;  
+        PWD_2 = 2'b10;
 
-        #50 PWD_1 = 2'b01; PWD_2 = 2'b10; 
-
-        #50 Back_Sensor = 1; 
-
-        #50 Front_Sensor = 0; Back_Sensor = 0;
-        
-        #50 Front_Sensor = 1; 
-        #50 PWD_1 = 2'b11; PWD_2 = 2'b00; 
-
-        #50 PWD_1 = 2'b01; PWD_2 = 2'b10;
-
-        #50 Back_Sensor = 0; Front_Sensor = 1; 
-
-        #50 Back_Sensor = 1;
-
-        #100 $finish;
+        #200;
+        Back_Sensor = 1;
+        #100;
+        Back_Sensor = 0; 
+        $finish;
     end
 
-    initial begin
-        $monitor("Time = %d | State = %b | PWD_1 = %b | PWD_2 = %b | Entrance = %b | Exit = %b | GREEN_LED = %b | RED_LED = %b",
-                 $time, uut.current_state, PWD_1, PWD_2, Front_Sensor, Back_Sensor, GREEN_LED, RED_LED);
-    end
-
-endmodule
+endmodule  

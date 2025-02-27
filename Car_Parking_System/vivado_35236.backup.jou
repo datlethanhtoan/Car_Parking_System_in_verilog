@@ -3,12 +3,12 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Fri Feb 28 02:04:51 2025
-# Process ID: 24400
-# Current directory: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent37748 C:\Users\DAT\Documents\Car_Parking_System_in_verilog\Car_Parking_System\Car_Parking_System.xpr
-# Log file: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/vivado.log
-# Journal file: C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System\vivado.jou
+# Start of session at: Fri Feb 28 00:30:59 2025
+# Process ID: 35236
+# Current directory: D:/Car_Parking_System
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19320 D:\Car_Parking_System\Car_Parking_System.xpr
+# Log file: D:/Car_Parking_System/vivado.log
+# Journal file: D:/Car_Parking_System\vivado.jou
 # Running On        :DESKTOP-HM2P47S
 # Platform          :Windows Server 2016 or Windows 10
 # Operating System  :26100
@@ -19,29 +19,39 @@
 # Host memory       :29860 MB
 # Swap memory       :8713 MB
 # Total Virtual     :38574 MB
-# Available Virtual :7155 MB
+# Available Virtual :7279 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/DAT/Documents/Car_Parking_System_in_verilog/Car_Parking_System/Car_Parking_System.xpr
+open_project D:/Car_Parking_System/Car_Parking_System.xpr
 update_compile_order -fileset sources_1
 launch_simulation
-source tb_system.tcl
+source system_tb.tcl
 close_sim
 launch_simulation
-source tb_system.tcl
+source system_tb.tcl
 close_sim
 launch_simulation
-source tb_system.tcl
-update_compile_order -fileset sim_1
-launch_simulation
-update_compile_order -fileset sim_1
+source system_tb.tcl
 close_sim
 launch_simulation
-source tb_system.tcl
+source system_tb.tcl
 close_sim
 launch_simulation
-source tb_system.tcl
+launch_simulation
+launch_simulation
+source system_tb.tcl
 close_sim
 launch_simulation
-source tb_system.tcl
+source system_tb.tcl
 close_sim
+launch_simulation
+source system_tb.tcl
+close_sim
+launch_simulation
+source system_tb.tcl
+close_sim
+launch_simulation
+source system_tb.tcl
+close_sim
+launch_simulation
+source system_tb.tcl
